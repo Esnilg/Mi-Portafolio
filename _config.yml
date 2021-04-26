@@ -7,8 +7,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://www.linkedin.com/in/esnil-guevara-8506771a3/">View My LinkedIn Profile</a> 
   
-  <a href="https://esnilg.github.io/markdown-portfolio/">View My Github Profile</a>
-  
 theme: jekyll-theme-minimal
 
 github:
