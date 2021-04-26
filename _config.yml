@@ -10,3 +10,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://esnilg.github.io/markdown-portfolio/">View My Github Profile</a>
   
 theme: jekyll-theme-minimal
+
+github:
+  is_project_page: true
+  
