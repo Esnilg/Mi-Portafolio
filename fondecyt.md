@@ -12,3 +12,14 @@ La Programación Estocástica (SP) ha sido muy utilizada para resolver modelos d
 la Optimización Robusta (RO) ha tomado mucho interés en los últimos años gracias al trabajo de (Ben-Tal1998), además, ésta no requiere una distribución específica para cada parámetro incierto, en su lugar, se asume que los datos inciertos varían en un conjunto de incertidumbre determinístico, el cual ha sido especificada por el usuario. La RO adopta un enfoque min-máx que aborda la incertidumbre, de manera que se pueda garantizar factibilidad ante cualquier realización de los parámetros inciertos dentro del conjunto de incertidumbre (Ben-Tal2015). Sin embargo, es conocido que RO puede generar soluciones muy conservadoras, el cual naturalmente incrementa el costo de las soluciones (Bertsimas2004). En este trabajo implementamos el enfoque de programación estocástica en dos etapas para un modelo de energía de gran escala y comparamos las soluciones estocásticas con soluciones robustas publicadas en la literatura (MORET2019). A continuación, introducimos el problema de energía y nuestra metodología. Luego, discutimos los resultados de la investigación y trabajo en desarrollo.
 
 ## Problema
+
+Una formulación MILP para la planificación energética fue presentada por \cite{MORET2019}, donde se incorpora información de la demanda de uso final (electricidad, calefacción y transporte), la eficiencia y costo de las tecnologías, el costo de los recursos (importados y locales) y su disponibilidad; también se consideran unidades de almacenamiento. Éste es un modelo completo y una representación simplificada del sistema de energía nacional de Suiza, donde considera la evolución del sistema energético hasta el año 2035, con una formulación de un solo periodo y que toma en cuenta la estacionalidad del año por meses. Un esquema general del modelo de planificación energética, puede ser representado a través de la siguiente estructura:
+\begin{subequations}\label{eq:MILP}
+\begin{align}
+\min_{x \in X} \quad c^T\textbf{x} + e^T\textbf{y} \\
+\textrm{s.a.}\quad A\textbf{x} & \leq b \label{eq:1}\\
+T\textbf{x} + W\textbf{y} & \geq d \label{eq:2}\\
+\textbf{x} &\in X \\
+\textbf{y} &\in Y 
+\end{align}
+\end{subequations}
