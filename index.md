@@ -4,7 +4,7 @@
 
 ### Energy Models
 
-[Project Fondecyt](/fondecyt)
+[Project Fondecyt](/Mi-Portafolio/fondecyt)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
