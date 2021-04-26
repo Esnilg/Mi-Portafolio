@@ -1,8 +1,3 @@
-header-includes: |
-    \usepackage{tikz,pgfplots}
-    \usepackage{fancyhdr}
-    \usepackage{cite}
-
 # Machine learning and Distributionaly Robust
 
 ---
