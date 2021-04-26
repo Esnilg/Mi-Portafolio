@@ -1,7 +1,7 @@
-# Machine learning and Distributionaly Robust
+# Planificación energética bajo incertidumbre: importancia de los enfoques e hipótesis estocásticos en las soluciones robustas
 
 ---
-abstract: |
+**Abstract**: 
     Este trabajo investiga cómo los enfoques estocásticos implementados en
     los problemas de planificación energética bajo incertidumbre y las
     hipótesis de distribuciones consideradas en los parámetros inciertos
@@ -13,14 +13,9 @@ abstract: |
     calculadas con soluciones publicadas en la literatura que usan el
     enfoque de la optimización robusta. El impacto del enfoque y de la
     distribución es tal sobre la decisión de inversión que concluimos a la
-    necesidad de usar las técnicas de optimización robusta en distribución
+    necesidad de usar las técnicas de optimización robusta en distribución 
     en nuestro trabajo futuro.
-author:
-- 
-title: |
-    Planificación energética bajo incertidumbre: importancia de los enfoques
-    e hipótesis estocásticos en las soluciones robustas
----
+
 
 Introducción
 ============
