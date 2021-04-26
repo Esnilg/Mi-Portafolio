@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Energy Models
 
-[Project 1 Title](/sample_page)
+[Project Fondecyt](/Fondecyt)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
